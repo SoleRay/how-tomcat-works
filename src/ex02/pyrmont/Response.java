@@ -113,8 +113,4 @@ public class Response implements ServletResponse {
     public String getContentType() {
         return null;
     }
-
-    public void setCharacterEncoding(String charset) {
-
-    }
 }

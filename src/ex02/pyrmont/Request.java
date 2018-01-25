@@ -150,20 +150,4 @@ public class Request implements ServletRequest {
     public void setCharacterEncoding(String encoding)
             throws UnsupportedEncodingException {
     }
-
-    public int getRemotePort() {
-        return 0;
-    }
-
-    public String getLocalName() {
-        return null;
-    }
-
-    public String getLocalAddr() {
-        return null;
-    }
-
-    public int getLocalPort() {
-        return 0;
-    }
 }
